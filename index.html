@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SET MDA · Sustainable Energy Team</title>
+<meta name="description" content="SET MDA is a student-led team from Magen David Academy that brings solar energy and light into the homes of families without electricity in rural Panama.">
+<meta property="og:title" content="SET MDA · Sustainable Energy Team">
+<meta property="og:description" content="Student-led team from Magen David Academy bringing solar energy and light to families without electricity in rural Panama.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/family-first-light.jpg">
+<meta name="theme-color" content="#0b1526">
+<link rel="icon" href="images/logo.png">
+<link rel="apple-touch-icon" href="images/logo.png">
+<script>
+  (function () {
+    var l = null;
+    try { l = localStorage.getItem('setmda-lang'); } catch (e) {}
+    if (!l) l = (navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
+    document.documentElement.lang = l;
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="bar" id="bar">
+  <a class="brand" href="#top"><img src="images/logo.png" alt="" width="34" height="34"><span>SET MDA</span></a>
+  <p class="where"><span>PANAMÁ</span><span id="clock">--:--</span><span class="coords">8.98°N 79.52°W</span></p>
+  <div class="bar-right">
+    <div class="lang" role="group" aria-label="Language / Idioma"><button type="button" data-lang="en">EN</button><span>/</span><button type="button" data-lang="es">ES</button></div>
+    <a class="bar-donate" href="#donate"><span class="en">DONATE</span><span class="es" lang="es">DONAR</span><i class="sq" aria-hidden="true"></i></a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="lbl-open"><span class="en">MENU</span><span class="es" lang="es">MENÚ</span></span><span class="lbl-close"><span class="en">CLOSE</span><span class="es" lang="es">CERRAR</span></span><i class="sq" aria-hidden="true"></i></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav class="menu-links" aria-label="Main">
+      <a href="#problem" style="--i:1"><span class="n">[01]</span><span class="w"><span class="en">THE PROBLEM</span><span class="es" lang="es">EL PROBLEMA</span></span></a>
+      <a href="#system" style="--i:2"><span class="n">[02]</span><span class="w"><span class="en">WHAT WE BRING</span><span class="es" lang="es">LO QUE LLEVAMOS</span></span></a>
+      <a href="#trip" style="--i:3"><span class="n">[03]</span><span class="w"><span class="en">HOW A TRIP WORKS</span><span class="es" lang="es">CÓMO ES UN VIAJE</span></span></a>
+      <a href="#impact" style="--i:4"><span class="n">[04]</span><span class="w"><span class="en">IMPACT</span><span class="es" lang="es">IMPACTO</span></span></a>
+      <a href="#team" style="--i:5"><span class="n">[05]</span><span class="w"><span class="en">THE TEAM</span><span class="es" lang="es">EL EQUIPO</span></span></a>
+      <a href="#field" style="--i:6"><span class="n">[06]</span><span class="w"><span class="en">FROM THE FIELD</span><span class="es" lang="es">EN EL CAMPO</span></span></a>
+      <a href="#help" style="--i:7"><span class="n">[07]</span><span class="w"><span class="en">GET INVOLVED</span><span class="es" lang="es">PARTICIPA</span></span></a>
+      <a href="#donate" style="--i:8"><span class="n">[08]</span><span class="w"><span class="en">DONATE</span><span class="es" lang="es">DONAR</span></span></a>
+  </nav>
+  <div class="menu-foot">
+    <a href="https://wa.me/50769493989?text=Hola%20SET%20MDA!%20" target="_blank" rel="noopener">WHATSAPP · MOI 6949-3989</a>
+    <a href="https://wa.me/50769431088?text=Hola%20SET%20MDA!%20" target="_blank" rel="noopener">WHATSAPP · ABRAHAM 6943-1088</a>
+    <a href="https://www.instagram.com/set_mda/" target="_blank" rel="noopener">INSTAGRAM · @SET_MDA</a>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- LIGHTS OUT -->
+  <section class="lights" id="lights" aria-label="Lights out">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <h1 class="mega top fit">
+      <span class="off-copy"><span class="en">75,000 HOMES</span><span class="es" lang="es">75,000 HOGARES</span></span>
+      <span class="on-copy"><span class="en">41 HOMES</span><span class="es" lang="es">41 HOGARES</span></span>
+    </h1>
+    <div class="lights-mid">
+      <div class="lights-copy">
+        <p class="idx">[00] <span class="off-copy"><span class="en">TONIGHT IN RURAL PANAMA</span><span class="es" lang="es">ESTA NOCHE EN EL PANAMÁ RURAL</span></span><span class="on-copy"><span class="en">POWER ON</span><span class="es" lang="es">LLEGÓ LA ENERGÍA</span></span></p>
+        <p class="mono-p off-copy"><span class="en">ABOUT 75,000 HOMES IN PANAMA STILL HAVE NO ELECTRICITY. WHEN THE SUN GOES DOWN, THEIR DAY ENDS.<br><br>[1] FIND THE BULB WITH YOUR FLASHLIGHT.<br>[2] CONNECT THE SOLAR PANEL TO BRING THE POWER IN.</span><span class="es" lang="es">CERCA DE 75,000 HOGARES EN PANAMÁ TODAVÍA NO TIENEN ELECTRICIDAD. CUANDO SE PONE EL SOL, SU DÍA TERMINA.<br><br>[1] ENCUENTRA EL BOMBILLO CON TU LINTERNA.<br>[2] CONECTA EL PANEL SOLAR PARA TRAER LA ENERGÍA.</span></p>
+        <p class="mono-p on-copy"><span class="en">THIS IS WHAT ONE SET MDA SOLAR SYSTEM DOES. A PANEL OUTSIDE, A POWER STATION INSIDE, ELECTRICITY AND LIGHT FOR THE WHOLE FAMILY. WE HAVE DONE IT 41 TIMES.</span><span class="es" lang="es">ESTO ES LO QUE HACE UN SISTEMA SOLAR DE SET MDA. UN PANEL AFUERA, UNA ESTACIÓN DE ENERGÍA ADENTRO, ELECTRICIDAD Y LUZ PARA TODA LA FAMILIA. LO HEMOS HECHO 41 VECES.</span></p>
+        <p class="src"><a href="https://energyalliance.org/wp-content/uploads/2025/05/Panama-Deep-Dive.pdf" target="_blank" rel="noopener"><span class="en">SOURCE: GLOBAL ENERGY ALLIANCE, 2023</span><span class="es" lang="es">FUENTE: GLOBAL ENERGY ALLIANCE, 2023</span></a></p>
+      </div>
+      <div class="window" id="window">
+        <img class="night" src="images/family-first-light.jpg" style="object-position:50% 38%" alt="" width="960" height="1280">
+        <img class="lit" src="images/family-first-light.jpg" style="object-position:50% 38%" alt="A family in rural Panama with SET MDA students under the light they installed" width="960" height="1280">
+        <span class="bulb-glow" aria-hidden="true"></span>
+        <span class="bulb-tag" aria-hidden="true"><i class="ring"></i><i class="stem"></i><span class="tag-lbl"><span class="off-copy"><span class="en">[1] NO POWER</span><span class="es" lang="es">[1] SIN ENERGÍA</span></span><span class="on-copy"><span class="en">POWERED BY THE SUN</span><span class="es" lang="es">CON ENERGÍA DEL SOL</span></span></span></span>
+        <p class="hint" aria-hidden="true"><span class="en">MOVE TO LOOK AROUND</span><span class="es" lang="es">MUÉVETE PARA MIRAR</span></p>
+      </div>
+      <div class="lights-switch">
+        <p class="idx step-lbl"><span class="off-copy"><span class="en">[2] CONNECT THE SOLAR PANEL</span><span class="es" lang="es">[2] CONECTA EL PANEL SOLAR</span></span><span class="on-copy"><span class="en">[✓] CONNECTED</span><span class="es" lang="es">[✓] CONECTADO</span></span></p>
+        <div class="rig" id="rig">
+          <svg class="rig-svg" id="rig-svg" viewBox="0 0 400 250" role="img" aria-label="Solar panel and power station">
+            <line class="ground" x1="0" y1="222" x2="400" y2="222"/>
+            <line class="post" x1="105" y1="126" x2="105" y2="222"/>
+            <g class="pv"><polygon points="24,48 160,22 186,112 50,138"/><line x1="58.0" y1="41.5" x2="84.0" y2="131.5"/><line x1="92.0" y1="35.0" x2="118.0" y2="125.0"/><line x1="126.0" y1="28.5" x2="152.0" y2="118.5"/><line x1="37.0" y1="93.0" x2="173.0" y2="67.0"/></g>
+            <text class="rig-t" x="30" y="16">SOLAR PANEL</text>
+            <g class="station">
+              <rect x="262" y="140" width="118" height="82" rx="3"/>
+              <rect class="screen" x="296" y="154" width="70" height="26"/>
+              <text class="screen-t" x="331" y="172" text-anchor="middle">0%</text>
+              <circle class="socket" cx="262" cy="190" r="12"/>
+              <line class="hole" x1="258" y1="185" x2="266" y2="185"/><line class="hole" x1="258" y1="195" x2="266" y2="195"/>
+            </g>
+            <text class="rig-t" x="262" y="240">ECOFLOW 600 W</text>
+            <circle class="drop" cx="262" cy="190" r="22"/>
+            <path class="ghost" d="M200 205 Q228 176 248 188"/>
+            <path class="cable" id="cable" d=""/>
+            <path class="cable-flow" id="cable-flow" d=""/>
+            <g class="plug" id="plug" tabindex="0" role="button" aria-label="Plug the solar panel into the power station">
+              <circle class="plug-hit" r="30"/>
+              <circle class="plug-pulse" r="20"/>
+              <rect x="-15" y="-10" width="30" height="20" rx="3"/>
+              <line x1="15" y1="-5" x2="26" y2="-5"/><line x1="15" y1="5" x2="26" y2="5"/>
+            </g>
+          </svg>
+        </div>
+        <p class="rig-help off-copy"><span class="en">DRAG THE PLUG INTO THE POWER STATION</span><span class="es" lang="es">ARRASTRA EL ENCHUFE A LA ESTACIÓN DE ENERGÍA</span> <span class="bounce">→</span></p>
+        <button class="rig-btn off-copy" id="connect" type="button"><span class="en">OR TAP TO CONNECT</span><span class="es" lang="es">O TOCA PARA CONECTAR</span></button>
+        <a class="btn gold on-copy" href="#donate"><span class="en">POWER HOME #42</span><span class="es" lang="es">ILUMINA EL HOGAR #42</span><i class="sq" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <h2 class="mega bottom fit">
+      <span class="off-copy"><span class="en">IN THE DARK</span><span class="es" lang="es">A OSCURAS</span></span>
+      <span class="on-copy"><span class="en">POWERED ON</span><span class="es" lang="es">CON ENERGÍA</span></span>
+    </h2>
+  </section>
+
+  <!-- 01 PROBLEM -->
+  <section class="sec paper" id="problem">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <div class="sec-head"><span class="idx">[01]</span><h2 class="title"><span class="en">THE PROBLEM</span><span class="es" lang="es">EL PROBLEMA</span></h2><span class="rule"></span></div>
+    <div class="problem">
+      <div class="big-num rv"><b>75,000</b><p class="mono-p"><span class="en">HOMES IN PANAMA WITHOUT ELECTRICITY (OFFICIAL, 2023). SATELLITE ANALYSIS SUGGESTS THE REAL NUMBER COULD BE CLOSER TO 155,000.</span><span class="es" lang="es">HOGARES EN PANAMÁ SIN ELECTRICIDAD (OFICIAL, 2023). UN ANÁLISIS SATELITAL SUGIERE QUE EL NÚMERO REAL PODRÍA ACERCARSE A 155,000.</span></p></div>
+      <div class="problem-copy rv">
+        <p class="lead"><span class="en">Most of Panama has power. The families who don't live far from the grid, in rural and indigenous communities where power lines don't reach.</span><span class="es" lang="es">La mayor parte de Panamá tiene electricidad. Las familias que no la tienen viven lejos de la red, en comunidades rurales e indígenas donde no llegan los cables.</span></p>
+        <div class="facts">
+          <div><b>95.2%</b><span><span class="en">OF PANAMA IS CONNECTED</span><span class="es" lang="es">DE PANAMÁ ESTÁ CONECTADO</span></span></div>
+          <div><b>191,400</b><span><span class="en">PEOPLE STILL WITHOUT POWER</span><span class="es" lang="es">PERSONAS AÚN SIN ENERGÍA</span></span></div>
+          <div><b>60,000</b><span><span class="en">HOMES IN NGÄBE-BUGLÉ ALONE</span><span class="es" lang="es">HOGARES SOLO EN NGÄBE-BUGLÉ</span></span></div>
+        </div>
+        <p class="src dark"><a href="https://energyalliance.org/wp-content/uploads/2025/05/Panama-Deep-Dive.pdf" target="_blank" rel="noopener"><span class="en">SOURCE: GLOBAL ENERGY ALLIANCE, ELECTRIFICATION IN PANAMA (2025)</span><span class="es" lang="es">FUENTE: GLOBAL ENERGY ALLIANCE, ELECTRIFICACIÓN EN PANAMÁ (2025)</span></a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 SYSTEM -->
+  <section class="sec gold-sec" id="system">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <div class="sec-head"><span class="idx">[02]</span><h2 class="title"><span class="en">WHAT WE BRING</span><span class="es" lang="es">LO QUE LLEVAMOS</span></h2><span class="rule"></span></div>
+    <p class="sec-sub"><span class="en">Not a lamp. A complete solar energy system, installed in every home. Tap each part.</span><span class="es" lang="es">No es una lámpara. Es un sistema de energía solar completo, instalado en cada hogar. Toca cada parte.</span></p>
+    <div class="system" id="system-diagram">
+        <button class="node" type="button" data-node="sun" aria-pressed="true">
+          <span class="idx">[01]</span>
+          <span class="ico ico-sun" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="12"/><g stroke-width="4"><path d="M32 4v10M32 50v10M4 32h10M50 32h10M12 12l7 7M45 45l7 7M12 52l7-7M45 19l7-7"/></g></svg></span>
+          <span class="nm"><span class="en">The sun</span><span class="es" lang="es">El sol</span></span>
+        </button>
+        <span class="flow" aria-hidden="true"><i></i></span>
+        <button class="node" type="button" data-node="panel" aria-pressed="false">
+          <span class="idx">[02]</span>
+          <span class="ico ico-panel" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M8 14h48l-6 28H14z"/><path d="M11 28h42M24 14l-2 28M40 14l2 28" class="ln"/><path d="M32 42v10M20 56h24" class="ln"/></svg></span>
+          <span class="nm"><span class="en">Solar panel</span><span class="es" lang="es">Panel solar</span></span>
+        </button>
+        <span class="flow" aria-hidden="true"><i></i></span>
+        <button class="node" type="button" data-node="station" aria-pressed="false">
+          <span class="idx">[03]</span>
+          <span class="ico ico-station" aria-hidden="true"><svg viewBox="0 0 64 64"><rect x="8" y="16" width="48" height="36"/><path d="M20 16v-6h24v6" class="ln"/><path d="M34 24l-8 12h8l-4 10" class="ln gold"/></svg></span>
+          <span class="nm"><span class="en">EcoFlow power station</span><span class="es" lang="es">Estación EcoFlow</span></span>
+        </button>
+        <span class="flow" aria-hidden="true"><i></i></span>
+        <button class="node" type="button" data-node="home" aria-pressed="false">
+          <span class="idx">[04]</span>
+          <span class="ico ico-home" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M8 30L32 10l24 20v26H8z"/><path d="M26 56V40h12v16" class="ln"/><circle cx="32" cy="27" r="5" class="bulb"/></svg></span>
+          <span class="nm"><span class="en">The home</span><span class="es" lang="es">El hogar</span></span>
+        </button>
+    </div>
+    <div class="system-desc">
+        <p class="desc" data-desc="sun"><span class="idx">[01] <span class="en">THE SUN</span><span class="es" lang="es">EL SOL</span></span><span class="en">Free energy, every day. Panama gets strong sun all year.</span><span class="es" lang="es">Energía gratis, todos los días. Panamá tiene sol fuerte todo el año.</span></p>
+        <p class="desc" data-desc="panel" hidden><span class="idx">[02] <span class="en">SOLAR PANEL</span><span class="es" lang="es">PANEL SOLAR</span></span><span class="en">Mounted outside the home. It turns sunlight into electricity all day.</span><span class="es" lang="es">Se instala afuera de la casa. Convierte la luz del sol en electricidad todo el día.</span></p>
+        <p class="desc" data-desc="station" hidden><span class="idx">[03] <span class="en">ECOFLOW POWER STATION</span><span class="es" lang="es">ESTACIÓN ECOFLOW</span></span><span class="en">600 W · 245 Wh. Stores the day's energy and powers the home at night, with outlets and USB ports.</span><span class="es" lang="es">600 W · 245 Wh. Guarda la energía del día y le da energía a la casa de noche, con enchufes y puertos USB.</span></p>
+        <p class="desc" data-desc="home" hidden><span class="idx">[04] <span class="en">THE HOME</span><span class="es" lang="es">EL HOGAR</span></span><span class="en">Light in the house, phones charged, small devices running. Electricity of their own.</span><span class="es" lang="es">Luz en la casa, teléfonos cargados y aparatos pequeños funcionando. Electricidad propia.</span></p>
+    </div>
+  </section>
+
+  <!-- 03 TRIP -->
+  <section class="sec paper" id="trip">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <div class="sec-head"><span class="idx">[03]</span><h2 class="title"><span class="en">HOW A TRIP WORKS</span><span class="es" lang="es">CÓMO ES UN VIAJE</span></h2><span class="rule"></span></div>
+    <div class="trip">
+      <ol class="rows">
+        <li class="row rv">
+          <span class="idx">[01]</span>
+          <h3><span class="en">Find a family</span><span class="es" lang="es">Buscar una familia</span></h3>
+          <p><span class="en">We identify homes in rural Panama with no access to electricity.</span><span class="es" lang="es">Identificamos hogares en el Panamá rural sin acceso a electricidad.</span></p>
+        </li>
+        <li class="row rv">
+          <span class="idx">[02]</span>
+          <h3><span class="en">Raise the money</span><span class="es" lang="es">Recaudar el dinero</span></h3>
+          <p><span class="en">Donations from our community pay for each home's full solar system.</span><span class="es" lang="es">Las donaciones de nuestra comunidad pagan el sistema solar completo de cada hogar.</span></p>
+        </li>
+        <li class="row rv">
+          <span class="idx">[03]</span>
+          <h3><span class="en">Travel & carry</span><span class="es" lang="es">Viajar y cargar</span></h3>
+          <p><span class="en">We bring everything to the house, sometimes on foot up the hills.</span><span class="es" lang="es">Llevamos todo hasta la casa, a veces a pie subiendo las lomas.</span></p>
+        </li>
+        <li class="row rv">
+          <span class="idx">[04]</span>
+          <h3><span class="en">Install together</span><span class="es" lang="es">Instalar juntos</span></h3>
+          <p><span class="en">We mount the panel, connect the power station and wire light through the home, with the family.</span><span class="es" lang="es">Montamos el panel, conectamos la estación e instalamos la luz en la casa, con la familia.</span></p>
+        </li>
+        <li class="row rv">
+          <span class="idx">[05]</span>
+          <h3><span class="en">Power on</span><span class="es" lang="es">Llega la energía</span></h3>
+          <p><span class="en">The home has its own electricity. The lights come on and our count grows by one.</span><span class="es" lang="es">La casa tiene su propia electricidad. Se prenden las luces y nuestro conteo sube uno.</span></p>
+        </li>
+      </ol>
+      <figure class="trip-video mono-img rv">
+        <video src="images/installing-light.mp4" poster="images/installing-light-poster.jpg" autoplay muted loop playsinline aria-label="A SET MDA member bringing light into a family's home"></video>
+        <figcaption><span class="idx">[REC]</span><span class="en">ON SITE, BRINGING LIGHT INTO A HOME</span><span class="es" lang="es">EN EL SITIO, LLEVANDO LUZ A UN HOGAR</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 04 IMPACT -->
+  <section class="sec navy-sec" id="impact">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <div class="sec-head"><span class="idx">[04]</span><h2 class="title"><span class="en">IMPACT SO FAR</span><span class="es" lang="es">IMPACTO HASTA HOY</span></h2><span class="rule"></span></div>
+    <div class="counts">
+      <div class="count"><b data-count="41">41</b><span><span class="en">HOMES WITH THEIR OWN ELECTRICITY</span><span class="es" lang="es">HOGARES CON ELECTRICIDAD PROPIA</span></span></div>
+      <div class="count"><b data-count="41">41</b><span><span class="en">SOLAR SYSTEMS INSTALLED</span><span class="es" lang="es">SISTEMAS SOLARES INSTALADOS</span></span></div>
+      <div class="count"><b>4+</b><span><span class="en">TRIPS, MOSTLY TO CIRÍ GRANDE</span><span class="es" lang="es">VIAJES, SOBRE TODO A CIRÍ GRANDE</span></span></div>
+      <div class="count"><b>100%</b><span><span class="en">RUN BY STUDENTS SINCE 2025</span><span class="es" lang="es">DIRIGIDO POR ESTUDIANTES DESDE 2025</span></span></div>
+    </div>
+    <div class="where-grid">
+      <div class="map-wrap">
+        <svg class="map" viewBox="0 0 620 285" role="img" aria-label="Map of Panama showing Panama City and Cirí Grande">
+  <g class="cells" id="map-cells"></g>
+  <circle class="ciri-ring" cx="314.3" cy="108.5" r="22"/>
+  <circle class="ciri-pin" cx="314.3" cy="108.5" r="6"/>
+  <polyline class="lead" points="330.3,124.5 348.0,180.0"/>
+  <rect class="pc-pin" x="363.0" y="81.0" width="10" height="10"/>
+  <line class="lead pc" x1="368.0" y1="81.0" x2="368.0" y2="13.0"/>
+</svg>
+        <p class="map-tag pc" style="left:59.35%;top:4.56%"><span class="en">PANAMA CITY · MDA</span><span class="es" lang="es">CIUDAD DE PANAMÁ · MDA</span></p>
+        <p class="map-tag ciri" style="left:56.13%;top:63.16%">CIRÍ GRANDE</p>
+      </div>
+      <div class="homes-card" id="homes-card">
+        <p class="idx"><span class="en">CIRÍ GRANDE · CAPIRA, PANAMÁ OESTE</span><span class="es" lang="es">CIRÍ GRANDE · CAPIRA, PANAMÁ OESTE</span></p>
+        <p class="homes-big"><b id="home-count">41</b><span><span class="en">HOMES</span><span class="es" lang="es">HOGARES</span></span></p>
+        <div class="homes-grid" aria-hidden="true"><i style="--d:0ms"></i><i style="--d:40ms"></i><i style="--d:80ms"></i><i style="--d:120ms"></i><i style="--d:160ms"></i><i style="--d:200ms"></i><i style="--d:240ms"></i><i style="--d:280ms"></i><i style="--d:320ms"></i><i style="--d:360ms"></i><i style="--d:400ms"></i><i style="--d:440ms"></i><i style="--d:480ms"></i><i style="--d:520ms"></i><i style="--d:560ms"></i><i style="--d:600ms"></i><i style="--d:640ms"></i><i style="--d:680ms"></i><i style="--d:720ms"></i><i style="--d:760ms"></i><i style="--d:800ms"></i><i style="--d:840ms"></i><i style="--d:880ms"></i><i style="--d:920ms"></i><i style="--d:960ms"></i><i style="--d:1000ms"></i><i style="--d:1040ms"></i><i style="--d:1080ms"></i><i style="--d:1120ms"></i><i style="--d:1160ms"></i><i style="--d:1200ms"></i><i style="--d:1240ms"></i><i style="--d:1280ms"></i><i style="--d:1320ms"></i><i style="--d:1360ms"></i><i style="--d:1400ms"></i><i style="--d:1440ms"></i><i style="--d:1480ms"></i><i style="--d:1520ms"></i><i style="--d:1560ms"></i><i style="--d:1600ms"></i><i class="next"></i></div>
+        <p class="homes-key"><span><i></i><span class="en">1 HOME WITH POWER</span><span class="es" lang="es">1 HOGAR CON ENERGÍA</span></span><span><i class="next"></i><span class="en">HOME #42, NEXT</span><span class="es" lang="es">HOGAR #42, EL PRÓXIMO</span></span></p>
+        <p class="homes-note"><span class="en">Most of our installations are in the hills of Cirí Grande, about an hour and a half west of Panama City.</span><span class="es" lang="es">La mayoría de nuestras instalaciones están en las montañas de Cirí Grande, a una hora y media al oeste de la Ciudad de Panamá.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 STORY + TEAM -->
+  <section class="sec paper" id="team">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <div class="sec-head"><span class="idx">[05]</span><h2 class="title"><span class="en">THE TEAM</span><span class="es" lang="es">EL EQUIPO</span></h2><span class="rule"></span></div>
+    <div class="story rv">
+      <p class="lead"><span class="en">SET MDA started with <i>Moi Mizrachi</i>, who spent a few years installing solar panels in communities across Panama. He saw what one system does for a family, so he and Abraham Mizrachi turned that experience into a club. In 2025 it became SET MDA, the Sustainable Energy Team of Magen David Academy.</span><span class="es" lang="es">SET MDA empezó con <i>Moi Mizrachi</i>, quien pasó varios años instalando paneles solares en comunidades de todo Panamá. Vio lo que un solo sistema hace por una familia, así que él y Abraham Mizrachi convirtieron esa experiencia en un club. En 2025 nació SET MDA, el Equipo de Energía Sostenible de Magen David Academy.</span></p>
+      <p class="mono-p"><span class="en">OUR EARLIER SERVICE PROJECT, INDIFERENCIA, SHOWED ALL OF US HOW MUCH GIVING BACK MATTERS. TODAY WE ARE 100% STUDENT-LED, OPEN TO EVERY MDA STUDENT, AND MEET ONCE A MONTH.</span><span class="es" lang="es">NUESTRO PROYECTO DE SERVICIO ANTERIOR, INDIFERENCIA, NOS MOSTRÓ A TODOS LO MUCHO QUE IMPORTA AYUDAR. HOY SOMOS 100% DIRIGIDOS POR ESTUDIANTES, ABIERTOS A TODO ESTUDIANTE DE MDA, Y NOS REUNIMOS UNA VEZ AL MES.</span></p>
+    </div>
+    <div class="team">
+        <article class="member rv">
+          <div class="ph mono-img"><img src="images/moi-mizrachi.jpg" alt="Moi Mizrachi" width="560" height="560"></div>
+          <p class="idx">[01] <span class="en">PRESIDENT</span><span class="es" lang="es">PRESIDENTE</span></p>
+          <h3>MOI MIZRACHI</h3>
+        </article>
+        <article class="member rv">
+          <div class="ph mono-img"><img src="images/abraham-mizrachi.jpg" alt="Abraham Mizrachi" width="560" height="560"></div>
+          <p class="idx">[02] <span class="en">VICE PRESIDENT</span><span class="es" lang="es">VICEPRESIDENTE</span></p>
+          <h3>ABRAHAM MIZRACHI</h3>
+        </article>
+        <article class="member rv">
+          <div class="ph mono-img"><img src="images/benjamin-mizrachi.jpg" alt="Benjamin Mizrachi" width="560" height="560"></div>
+          <p class="idx">[03] <span class="en">TREASURER</span><span class="es" lang="es">TESORERO</span></p>
+          <h3>BENJAMIN MIZRACHI</h3>
+        </article>
+        <article class="member rv">
+          <div class="ph mono-img"><img src="images/nate-bassan.jpg" alt="Nate Bassan L." width="560" height="560"></div>
+          <p class="idx">[04] <span class="en">SECRETARY</span><span class="es" lang="es">SECRETARIO</span></p>
+          <h3>NATE BASSAN L.</h3>
+        </article>
+        <article class="member rv">
+          <div class="ph mono-img"><img src="images/grace-yohros.jpg" alt="Grace Yohros" width="560" height="560"></div>
+          <p class="idx">[05] <span class="en">CREATIVE &AMP; MARKETING DIRECTOR</span><span class="es" lang="es">DIRECTORA CREATIVA Y DE MERCADEO</span></p>
+          <h3>GRACE YOHROS</h3>
+        </article>
+        <article class="member rv">
+          <div class="ph mono-img"><img src="images/valerie-mugrabi.jpg" alt="Valerie Mugrabi" width="560" height="560"></div>
+          <p class="idx">[06] <span class="en">CREATIVE &AMP; MARKETING DIRECTOR</span><span class="es" lang="es">DIRECTORA CREATIVA Y DE MERCADEO</span></p>
+          <h3>VALERIE MUGRABI</h3>
+        </article>
+    </div>
+    <div class="partner rv">
+      <p class="idx"><span class="en">[+] BUILT TOGETHER WITH</span><span class="es" lang="es">[+] HECHO JUNTO A</span></p>
+      <h3 class="partner-name">SET AIP</h3>
+      <p class="partner-copy"><span class="en">We work closely with SET AIP, and they have been one of our biggest collaborators. Bringing power to these homes has been a team effort, and we are grateful to do this work alongside them.</span><span class="es" lang="es">Trabajamos muy de cerca con SET AIP, y han sido uno de nuestros mayores colaboradores. Llevar energía a estos hogares ha sido un trabajo en equipo, y estamos agradecidos de hacerlo junto a ellos.</span></p>
+      <p class="partner-thanks"><span class="en">THANK YOU, SET AIP.</span><span class="es" lang="es">GRACIAS, SET AIP.</span></p>
+    </div>
+  </section>
+
+  <!-- 06 FIELD -->
+  <section class="sec gold-sec" id="field">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <div class="sec-head"><span class="idx">[06]</span><h2 class="title"><span class="en">FROM THE FIELD</span><span class="es" lang="es">EN EL CAMPO</span></h2><span class="rule"></span></div>
+    <div class="collage">
+        <figure class="shot shot-1 tall mono-img rv">
+          <img src="images/hero-carrying-panel.jpg" style="object-position:45% 64%" alt="Carrying a panel up the hill" width="1200" height="1600">
+          <figcaption><span class="idx">[01]</span><span class="en">CARRYING A PANEL UP THE HILL</span><span class="es" lang="es">SUBIENDO UN PANEL POR LA LOMA</span></figcaption>
+        </figure>
+        <figure class="shot shot-2 tall mono-img rv">
+          <img src="images/installing-panel.jpg" style="object-position:60% 38%" alt="Setting up the panel beside the home" width="1200" height="1600">
+          <figcaption><span class="idx">[02]</span><span class="en">SETTING UP THE PANEL BESIDE THE HOME</span><span class="es" lang="es">MONTANDO EL PANEL JUNTO A LA CASA</span></figcaption>
+        </figure>
+        <figure class="shot shot-3 tall mono-img rv">
+          <img src="images/family-ecoflow.jpg" style="object-position:55% 42%" alt="Power on, first test" width="1200" height="1600">
+          <figcaption><span class="idx">[03]</span><span class="en">POWER ON, FIRST TEST</span><span class="es" lang="es">PRIMERA PRUEBA CON ENERGÍA</span></figcaption>
+        </figure>
+        <figure class="shot shot-4 tall mono-img rv">
+          <img src="images/set-shirts.jpg" style="object-position:50% 26%" alt="On site with the equipment" width="1200" height="1600">
+          <figcaption><span class="idx">[04]</span><span class="en">ON SITE WITH THE EQUIPMENT</span><span class="es" lang="es">EN EL SITIO CON EL EQUIPO</span></figcaption>
+        </figure>
+        <figure class="shot shot-5 tall mono-img rv">
+          <img src="images/team-selfie.jpg" style="object-position:45% 48%" alt="With a member of the community" width="1200" height="1600">
+          <figcaption><span class="idx">[05]</span><span class="en">WITH A MEMBER OF THE COMMUNITY</span><span class="es" lang="es">CON UN MIEMBRO DE LA COMUNIDAD</span></figcaption>
+        </figure>
+        <figure class="shot shot-6 wide mono-img rv">
+          <img src="images/team-green-house.jpg" style="object-position:50% 32%" alt="The crew after a full day" width="1200" height="1600">
+          <figcaption><span class="idx">[06]</span><span class="en">THE CREW AFTER A FULL DAY</span><span class="es" lang="es">EL EQUIPO DESPUÉS DE UN DÍA COMPLETO</span></figcaption>
+        </figure>
+    </div>
+    <a class="btn ink" href="https://www.instagram.com/set_mda/" target="_blank" rel="noopener"><span class="en">MORE ON INSTAGRAM @SET_MDA</span><span class="es" lang="es">MÁS EN INSTAGRAM @SET_MDA</span><i class="sq" aria-hidden="true"></i></a>
+  </section>
+
+  <!-- 07 HELP -->
+  <section class="sec paper" id="help">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <div class="sec-head"><span class="idx">[07]</span><h2 class="title"><span class="en">GET INVOLVED</span><span class="es" lang="es">PARTICIPA</span></h2><span class="rule"></span></div>
+    <div class="ways">
+      <div class="way rv"><span class="idx">[A] <span class="en">MDA STUDENTS</span><span class="es" lang="es">ESTUDIANTES DE MDA</span></span><h3><span class="en">JOIN THE TEAM</span><span class="es" lang="es">ÚNETE AL EQUIPO</span></h3><p><span class="en">Help plan fundraisers, come on installation trips and learn how solar energy works, hands-on. Talk to anyone on the board.</span><span class="es" lang="es">Ayuda a planificar recaudaciones, ven a los viajes de instalación y aprende cómo funciona la energía solar, en la práctica. Habla con cualquiera de la directiva.</span></p><a class="lnk" href="#team"><span class="en">MEET THE BOARD</span><span class="es" lang="es">CONOCE A LA DIRECTIVA</span><svg class="arr" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></a></div>
+      <div class="way rv"><span class="idx">[B] <span class="en">PARENTS &amp; FRIENDS</span><span class="es" lang="es">PADRES Y AMIGOS</span></span><h3><span class="en">VOLUNTEER</span><span class="es" lang="es">SÉ VOLUNTARIO</span></h3><p><span class="en">Transport to the communities, help at events, or electrical know-how. All of it gets more homes powered.</span><span class="es" lang="es">Transporte a las comunidades, ayuda en eventos o conocimientos de electricidad. Todo ayuda a darle energía a más hogares.</span></p><a class="lnk" href="https://wa.me/50769493989?text=Hola%20SET%20MDA!%20" target="_blank" rel="noopener"><span class="en">MESSAGE US</span><span class="es" lang="es">ESCRÍBENOS</span><svg class="arr" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></a></div>
+      <div class="way rv"><span class="idx">[C] <span class="en">COMPANIES &amp; FAMILIES</span><span class="es" lang="es">EMPRESAS Y FAMILIAS</span></span><h3><span class="en">SPONSOR A HOME</span><span class="es" lang="es">PATROCINA UN HOGAR</span></h3><p><span class="en">Fund a complete solar system for one family, from the panel to the first light.</span><span class="es" lang="es">Financia un sistema solar completo para una familia, desde el panel hasta la primera luz.</span></p><a class="lnk" href="#donate"><span class="en">SPONSOR</span><span class="es" lang="es">PATROCINAR</span><svg class="arr" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></a></div>
+    </div>
+  </section>
+
+  <!-- 08 DONATE -->
+  <section class="donate" id="donate">
+    <i class="x x1"></i><i class="x x2"></i><i class="x x3"></i><i class="x x4"></i>
+    <p class="idx">[08] <span class="en">DONATE</span><span class="es" lang="es">DONA</span></p>
+    <h2 class="mega"><span class="en">POWER HOME #42</span><span class="es" lang="es">ILUMINA EL HOGAR #42</span></h2>
+    <div class="give">
+      <p class="mono-p"><span class="en">EVERY DONATION GOES TOWARD BRINGING ELECTRICITY AND LIGHT INTO THE NEXT FAMILY'S HOME.</span><span class="es" lang="es">CADA DONACIÓN VA PARA LLEVAR ELECTRICIDAD Y LUZ A LA CASA DE LA PRÓXIMA FAMILIA.</span></p>
+      <a class="give-card" href="https://gofund.me/2586e6299" target="_blank" rel="noopener"><span class="idx"><span class="en">FROM ANYWHERE · CARD</span><span class="es" lang="es">DESDE CUALQUIER PAÍS · TARJETA</span></span><b>GOFUNDME</b><svg class="arr" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square"/></svg></a>
+      <div class="give-card"><span class="idx"><span class="en">IN PANAMA</span><span class="es" lang="es">EN PANAMÁ</span></span><b>YAPPY 6849-0000</b><button class="copy" type="button" data-copy="68490000" data-done-en="COPIED" data-done-es="COPIADO"><span class="en">COPY</span><span class="es" lang="es">COPIAR</span></button></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot" id="contact">
+  <div class="foot-grid">
+    <div><p class="idx"><span class="en">CONTACT</span><span class="es" lang="es">CONTACTO</span></p><a href="https://wa.me/50769493989?text=Hola%20SET%20MDA!%20" target="_blank" rel="noopener">WHATSAPP · MOI MIZRACHI · 6949-3989</a><a href="https://wa.me/50769431088?text=Hola%20SET%20MDA!%20" target="_blank" rel="noopener">WHATSAPP · ABRAHAM MIZRACHI · 6943-1088</a><a href="https://www.instagram.com/set_mda/" target="_blank" rel="noopener">INSTAGRAM · @SET_MDA</a></div>
+    <div><p class="idx"><span class="en">DONATE</span><span class="es" lang="es">DONAR</span></p><a href="https://gofund.me/2586e6299" target="_blank" rel="noopener">GOFUNDME</a><a href="#donate">YAPPY · 6849-0000</a></div>
+    <div><p class="idx"><span class="en">SCHOOL</span><span class="es" lang="es">COLEGIO</span></p><p>MAGEN DAVID ACADEMY<br><span class="en">PANAMA CITY, PANAMA</span><span class="es" lang="es">CIUDAD DE PANAMÁ, PANAMÁ</span></p><p class="idx" style="margin-top:14px"><span class="en">IN COLLABORATION WITH</span><span class="es" lang="es">EN COLABORACIÓN CON</span></p><p>SET AIP</p></div>
+  </div>
+  <p class="foot-mega fit">SET MDA</p>
+  <div class="foot-bottom"><span>© <span id="year">2026</span> SET MDA · SUSTAINABLE ENERGY TEAM</span><span><span class="en">41 HOMES POWERED AND COUNTING</span><span class="es" lang="es">41 HOGARES CON ENERGÍA Y CONTANDO</span></span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
