@@ -4,7 +4,7 @@
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // Language
-  var titles = { en: 'SET MDA · Sustainable Energy Team', es: 'SET MDA · Equipo de Energía Sostenible' };
+  var titles = { en: 'SET MDA', es: 'SET MDA' };
   function setLang(l) {
     root.lang = l;
     document.title = titles[l];
