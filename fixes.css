@@ -18,3 +18,7 @@
 .partner-name.fitname > span { display: block; font-size: min(8.5rem, 17cqi); }
 /* Section titles fit the smallest phones */
 @media (max-width: 360px) { .title { font-size: 2.3rem; } }
+/* Impact: own numbers, then numbers together with our alliances */
+.counts.counts-own { margin-bottom: 26px; }
+.alliance-lbl { margin: 0 0 10px; color: var(--gold); }
+.counts.counts-alliance { grid-template-columns: 1fr 1fr; }

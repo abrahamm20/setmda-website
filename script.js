@@ -234,10 +234,11 @@
   root.classList.add('js');
   function countUp(el) {
     var end = parseInt(el.getAttribute('data-count'), 10), start = null;
+    var suffix = el.getAttribute('data-suffix') || '';
     function step(ts) {
       if (!start) start = ts;
       var p = Math.min((ts - start) / 1400, 1);
-      el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3)));
+      el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3))) + suffix;
       if (p < 1) requestAnimationFrame(step);
     }
     requestAnimationFrame(step);
