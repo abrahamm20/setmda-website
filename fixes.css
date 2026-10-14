@@ -1,0 +1,20 @@
+/* ===== Layout fixes: no text on top of text ===== */
+/* "75,000" sizes to its own column so it never runs into the paragraph next to it */
+.big-num { container-type: inline-size; }
+.big-num b { font-size: min(14rem, 22cqi); }
+/* Solid top bar once scrolled, so page text never shows through behind it */
+.bar.scrolled { background: var(--bg-bar, #050b16); }
+/* Room between the giant footer logo and the bottom line */
+.foot-mega { margin-bottom: 34px; }
+.nw { white-space: nowrap; }
+/* Second partner block (Gabriel Solís) sits closer to the first */
+.partner + .partner { margin-top: clamp(40px, 5vw, 70px); }
+/* Dark sections: readable secondary text and hairlines */
+.navy-sec { --muted: #aab2c2; --line: var(--line-inv); }
+.navy-sec .row:hover { color: var(--ink); }
+/* Long partner names scale to their column */
+.partner-name { padding-top: .08em; }
+.partner-name.fitname { container-type: inline-size; }
+.partner-name.fitname > span { display: block; font-size: min(8.5rem, 17cqi); }
+/* Section titles fit the smallest phones */
+@media (max-width: 360px) { .title { font-size: 2.3rem; } }
